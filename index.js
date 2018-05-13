@@ -65,3 +65,4 @@ function placeOrder(creditCard) {
     return totalOrder;
   }
 }
+
