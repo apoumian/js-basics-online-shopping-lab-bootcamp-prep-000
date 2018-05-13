@@ -46,6 +46,7 @@ function total() {
 function removeFromCart(item) {
      var itemIsInCart = false;
   for (let i = 0; i < cart.length; i++) {
+<<<<<<< HEAD
     if (item === cart[i].itemName) {
       cart.splice(i, 1);
       itemIsInCart = true;
@@ -55,6 +56,16 @@ function removeFromCart(item) {
   if (itemIsInCart === false) {
     return "That item is not in your cart.";
   }
+=======
+    if (item === cart[i]['itemName']) {
+      cart.splice(i, 1);
+      itemIsInCart = true;
+      return cart;
+    } else {
+    return "That item is not in your cart.";
+  }
+ }
+>>>>>>> 58ecd6838877e8abc7b25b241f623fce547625d9
 }
 
 
