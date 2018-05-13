@@ -31,7 +31,7 @@ for (var i = 0; i < myCart.length; i++){
 if (myCart.length === 0){
   return "Your shopping cart is empty.";
 } else {
-  return `In your cart, you have ${cartString}.`;
+  return `In your cart, you have${cartString}.`;
   }
 }
 
