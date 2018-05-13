@@ -52,9 +52,10 @@ function removeFromCart(item) {
       return cart;
     }
   }
-  if (itemIsInCart === false) {
+    if (itemIsInCart === false) {
     return "That item is not in your cart.";
   }
+}
 
 function placeOrder(creditCard) {
    if (creditCard === undefined) {
