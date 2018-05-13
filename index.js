@@ -31,8 +31,8 @@ for (var i = 0; i < myCart.length; i++){
 if (myCart.length === 0){
   return "Your shopping cart is empty.";
 } else {
-  return `In your cart, you have${cartString}.`;
-}
+  return `In your cart, you have ${cartString}.`;
+  }
 }
 
 function total() {
@@ -46,7 +46,6 @@ function total() {
 function removeFromCart(item) {
      var itemIsInCart = false;
   for (let i = 0; i < cart.length; i++) {
-<<<<<<< HEAD
     if (item === cart[i].itemName) {
       cart.splice(i, 1);
       itemIsInCart = true;
